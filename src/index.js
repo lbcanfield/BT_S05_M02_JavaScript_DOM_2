@@ -46,3 +46,9 @@ window.addEventListener('keyup', (event) => {
 window.addEventListener('resize', (event) => {
      console.log('window has been resized')
 })
+
+
+// DOM Content message
+window.addEventListener('DOMContentLoaded', (event) => {
+     console.log(`${event.type} has loaded`);
+})
