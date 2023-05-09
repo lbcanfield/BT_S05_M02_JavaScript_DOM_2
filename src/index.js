@@ -21,3 +21,13 @@ window.addEventListener('copy', (event) => {
 window.addEventListener('paste', (event) => {
      console.log(`a ${event.type} event has occurred`);
 })
+
+// Scroll Event
+window.addEventListener('scroll', (event) => {
+     console.log(`we are ${event.type}ing`);
+})
+
+// Double-Click Event
+window.addEventListener('dblclick', (event) => {
+     console.log(`someone has ${event.type}'ed`);
+})
