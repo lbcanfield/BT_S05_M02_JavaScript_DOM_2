@@ -31,3 +31,14 @@ window.addEventListener('scroll', (event) => {
 window.addEventListener('dblclick', (event) => {
      console.log(`someone has ${event.type}'ed`);
 })
+
+// Key press event
+window.addEventListener('keydown', (event) => {
+     console.log(`${event.key} has been struck`);
+})
+
+// Key release event
+window.addEventListener('keyup', (event) => {
+     console.log(`${event.key} has been released`);
+})
+
