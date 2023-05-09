@@ -42,3 +42,7 @@ window.addEventListener('keyup', (event) => {
      console.log(`${event.key} has been released`);
 })
 
+//Window resize event == This may come in handy later
+window.addEventListener('resize', (event) => {
+     console.log('window has been resized')
+})
